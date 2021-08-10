@@ -1,0 +1,291 @@
+<!--include _mixins-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <title>Hicell-Telecommunication</title>
+  <meta name="description" content="description content">
+  <!--favicon-->
+  <link rel="icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/libs.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="preload" href="./fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Roboto-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Roboto-Italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Roboto-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Roboto-LightItalic.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+
+<body class="page blogcontentpage">
+  <div class="page__wrapper b-lazy webp-img" data-webp="./img/images/main-space-bg.webp" data-webp-mobile="./img/images/mainhd-mobile2.webp" data-img="./img/images/main-space-bg.jpg" data-img-mobile="./img/images/mainhd-mobile2.jpg">
+    <header class="header">
+      <div class="header-inner page-container">
+        <div class="header-top"><a class="header-top__logo" href="./">
+            <picture>
+              <source srcset="./img/images/hicell-logo.webp" type="image/webp"><img class="header-top__logo-img" src="./img/images/hicell-logo.png" alt="img">
+            </picture>
+          </a>
+          <div class="header-top__content">
+            <div class="header-top__languages"><a class="header-top__languages-item" href="#">RU</a><a class="header-top__languages-item active" href="#">EN</a></div>
+            <div class="header-top__search">
+              <form>
+                <input class="header-top__input" type="text">
+                <!--img(src="./img/images/search-icon.png").header-top__search-ico-->
+                <button type="submit"></button>
+                <picture>
+                  <source srcset="./img/images/search-icon.webp" type="image/webp"><img class="header-top__search-ico" src="./img/images/search-icon.png" alt="img">
+                </picture>
+              </form>
+            </div>
+            <div class="header-top__contacts"><a class="header-top__contacts-mail" href="mailto:sales@hicell.net">sales@hicell.net</a><a class="header-top__contacts-phone" href="tel:+447506865214">+447506865214</a></div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="header-bottom__list"><a class="header-bottom__item" href="./products.html">PRODUCTS</a><a class="header-bottom__item" href="./solutions.html">SOLUTIONS</a><a class="header-bottom__item" href="./prices.html">PRICES</a><a class="header-bottom__item" href="./faq.html">FAQ</a><a class="header-bottom__item" href="./integration.html">INTEGRATION</a><a class="header-bottom__item" href="./blog.html">BLOG</a><a class="header-bottom__item" href="./events.html">EVENTS</a><a class="header-bottom__item" href="./contacts.html">CONTACT US</a></div>
+          <div class="header-bottom__autorize"><a class="header-bottom__log-in" href="#">LOG IN</a><a class="header-bottom__log-in sign-up" href="#">SIGN UP</a></div>
+        </div>
+        <div class="header-fixed-search hidden">
+          <div class="header-fixed-search__inner">
+            <input type="text">
+            <div class="header-fixed-search__ico"><a href="#"><svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3755 9.47687C13.0454 7.13367 12.8292 3.85958 10.727 1.75736C8.38387 -0.585787 4.58488 -0.585786 2.24173 1.75736C-0.101411 4.1005 -0.101411 7.89949 2.24173 10.2426C4.34396 12.3449 7.61804 12.561 9.96125 10.8911L15.6768 16.6066L17.091 15.1924L11.3755 9.47687ZM9.3128 3.17157C10.8749 4.73367 10.8749 7.26633 9.3128 8.82843C7.75071 10.3905 5.21805 10.3905 3.65595 8.82843C2.09385 7.26633 2.09385 4.73367 3.65595 3.17157C5.21805 1.60948 7.75071 1.60948 9.3128 3.17157Z" fill="#2E3A59" />
+                </svg>
+              </a></div>
+          </div>
+        </div>
+        <div class="header-mobile">
+          <div class="header-mobile__inner"><a class="header-mobile__logo" href="./index.html">
+              <picture>
+                <source srcset="./img/images/hicell-logo2.webp" type="image/webp"><img class="header-mobile__logo-img" src="./img/images/hicell-logo2.png" alt="img">
+              </picture>
+              <!--img(src="./img/images/hicell-logo2.png").header-mobile__logo-img-->
+            </a>
+            <div class="header-mobile__right">
+              <div class="header-mobile__search">
+                <picture>
+                  <source srcset="./img/images/mobile_search.webp" type="image/webp"><img class="header-mobile__search-img show-block-search" src="./img/images/mobile_search.png" alt="img">
+                </picture>
+                <!--img(src="./img/images/mobile_search.png").header-mobile__search-img-->
+              </div>
+              <div class="header-mobile__menu"><img class="header-mobile__menu-img" src="./img/images/menu1.svg" alt="img"><img class="header-mobile__close-img d-hidden" src="./img/images/cancel.svg" alt="img">
+                <div class="header-mobile__list">
+                  <div class="header-mobile__list-inner"><a class="header-mobile__item" href="./products.html">PRODUCTS</a><a class="header-mobile__item" href="./solutions.html">SOLUTIONS</a><a class="header-mobile__item" href="./prices.html">PRICES</a><a class="header-mobile__item" href="./faq.html">FAQ</a><a class="header-mobile__item" href="./integration.html">INTEGRATION</a><a class="header-mobile__item" href="./blog.html">BLOG</a><a class="header-mobile__item" href="./events.html">EVENTS</a><a class="header-mobile__item" href="./contacts.html">CONTACT US</a>
+                    <div class="header-mobile__btns"><a class="header-bottom__log-in" href="#">log in</a><a class="header-bottom__log-in sign-up" href="#">sign up</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page__content">
+      <div class="main">
+        <div class="custom-border-title__wrap page-container blog-btn-wrap">
+          <div class="custom-border-title products blog-t">blog</div>
+        </div>
+        <div class="blog-container">
+          <div class="blog-container__wrap page-container"><a class="blog-container__btn" href="./blog.html">back</a>
+            <div class="blog-container__inner">
+              <div class="blog-container__title">Heavy engineering is not a distant drumbeat for you</div>
+              <div class="blog-container__img"><img class="blog-container__img-img" src="./img/images/rectangle92.png" alt="img"></div>
+              <div class="blog-container__data-icons">
+                <div class="blog-container__left">
+                  <div class="blog-container__row">
+                    <div class="blog-container__col left">
+                      <div class="blog-container__col-ico"><svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M-0.00195312 3.33333V15C-0.00195312 15.9192 0.745547 16.6667 1.66471 16.6667H13.3314C14.2505 16.6667 14.998 15.9192 14.998 15V3.33333C14.998 2.41417 14.2505 1.66667 13.3314 1.66667H11.6647V0H9.99805V1.66667H4.99805V0H3.33138V1.66667H1.66471C0.745547 1.66667 -0.00195312 2.41417 -0.00195312 3.33333ZM13.3322 15H1.66388V6.66667H13.3322V15ZM13.3322 5H1.66388V3.33333H13.3322V5Z" fill="black" />
+                        </svg>
+
+                      </div>
+                      <div class="blog-container__col-txt">27 October 2020</div>
+                    </div>
+                    <div class="blog-container__col"><span>Tags:</span><a class="blog-container__col-i" href="#">#tag1</a><a class="blog-container__col-i" href="#">#tag2</a><a class="blog-container__col-i" href="#">#tag3</a><a class="blog-container__col-i" href="#">#tag4</a></div>
+                  </div>
+                  <div class="blog-container__row">
+                    <div class="blog-container__col left">
+                      <div class="blog-container__col-ico"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10 0C4.486 0 0 4.486 0 10C0 15.514 4.486 20 10 20C15.514 20 20 15.514 20 10C20 4.486 15.514 0 10 0ZM10 18C5.589 18 2 14.411 2 10C2 5.589 5.589 2 10 2C14.411 2 18 5.589 18 10C18 14.411 14.411 18 10 18Z" fill="black" />
+                          <path d="M11 5H9V11H15V9H11V5Z" fill="black" />
+                        </svg>
+
+                      </div>
+                      <div class="blog-container__col-txt">5 minutes read</div>
+                    </div>
+                    <div class="blog-container__col"><span>Author: Name Surname</span></div>
+                  </div>
+                </div>
+                <div class="blog-container__right"><a class="blog-container__ico" href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.70629 12.5352L11.1205 13.9494L8.99918 16.0707C7.04656 18.0233 3.88073 18.0233 1.92811 16.0707C-0.0245095 14.1181 -0.0245095 10.9522 1.92811 8.99962L4.04943 6.8783L5.46365 8.29252L3.34233 10.4138C2.17075 11.5854 2.17075 13.4849 3.34233 14.6565C4.5139 15.828 6.41339 15.828 7.58497 14.6565L9.70629 12.5352Z" fill="#2E2E2E" />
+                      <path d="M8.29207 5.46409L6.87786 4.04988L8.99918 1.92855C10.9518 -0.0240663 14.1176 -0.0240668 16.0702 1.92855C18.0229 3.88118 18.0229 7.047 16.0702 8.99962L13.9489 11.1209L12.5347 9.70673L14.656 7.58541C15.8276 6.41384 15.8276 4.51434 14.656 3.34277C13.4845 2.1712 11.585 2.1712 10.4134 3.34277L8.29207 5.46409Z" fill="#2E2E2E" />
+                      <path d="M11.8276 4.75698L4.75654 11.828L6.17075 13.2423L13.2418 6.1712L11.8276 4.75698Z" fill="#2E2E2E" />
+                    </svg>
+                  </a><a class="blog-container__ico" href="#"><svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.99895 4.37688C6.44495 4.37688 4.37595 6.44688 4.37595 8.99988C4.37595 11.5539 6.44495 13.6239 8.99895 13.6239C11.551 13.6239 13.622 11.5539 13.622 8.99988C13.622 6.44688 11.551 4.37688 8.99895 4.37688ZM8.99895 12.0039C7.33995 12.0039 5.99495 10.6589 5.99495 9.00088C5.99495 7.34188 7.33995 5.99788 8.99895 5.99788C10.658 5.99788 12.001 7.34188 12.001 9.00088C12.001 10.6589 10.658 12.0039 8.99895 12.0039Z" fill="#2E2E2E" />
+                      <path d="M13.806 5.28488C14.4013 5.28488 14.884 4.80225 14.884 4.20688C14.884 3.61152 14.4013 3.12888 13.806 3.12888C13.2106 3.12888 12.728 3.61152 12.728 4.20688C12.728 4.80225 13.2106 5.28488 13.806 5.28488Z" fill="#2E2E2E" />
+                      <path d="M17.533 3.11088C17.064 1.90188 16.109 0.945883 14.9 0.478883C14.201 0.215883 13.462 0.0748827 12.714 0.0588827C11.751 0.0168827 11.446 0.00488281 9.00395 0.00488281C6.56195 0.00488281 6.24895 0.00488271 5.29395 0.0588827C4.54795 0.0738827 3.80895 0.214883 3.10995 0.478883C1.89995 0.945883 0.944953 1.90188 0.476953 3.11088C0.213953 3.81088 0.0729531 4.54888 0.0579531 5.29688C0.0149531 6.25888 0.00195312 6.56388 0.00195312 9.00688C0.00195312 11.4489 0.00195312 11.7599 0.0579531 12.7169C0.0729531 13.4649 0.213953 14.2029 0.476953 14.9039C0.945953 16.1119 1.90095 17.0679 3.11095 17.5359C3.80695 17.8079 4.54595 17.9619 5.29595 17.9859C6.25895 18.0279 6.56395 18.0409 9.00595 18.0409C11.448 18.0409 11.761 18.0409 12.716 17.9859C13.463 17.9709 14.202 17.8289 14.902 17.5669C16.111 17.0979 17.066 16.1429 17.535 14.9339C17.798 14.2339 17.939 13.4959 17.954 12.7479C17.997 11.7859 18.01 11.4809 18.01 9.03788C18.01 6.59488 18.01 6.28488 17.954 5.32788C17.941 4.56988 17.801 3.81888 17.533 3.11088ZM16.315 12.6429C16.308 13.2189 16.204 13.7899 16.004 14.3309C15.699 15.1179 15.078 15.7399 14.292 16.0419C13.757 16.2409 13.193 16.3449 12.622 16.3529C11.672 16.3969 11.404 16.4079 8.96795 16.4079C6.52995 16.4079 6.28095 16.4079 5.31295 16.3529C4.74395 16.3459 4.17795 16.2409 3.64395 16.0419C2.85495 15.7409 2.22995 15.1189 1.92495 14.3309C1.72895 13.7969 1.62295 13.2319 1.61395 12.6619C1.57095 11.7119 1.56095 11.4439 1.56095 9.00788C1.56095 6.57088 1.56095 6.32188 1.61395 5.35288C1.62095 4.77688 1.72495 4.20688 1.92495 3.66588C2.22995 2.87688 2.85495 2.25588 3.64395 1.95388C4.17795 1.75588 4.74395 1.65088 5.31295 1.64288C6.26395 1.59988 6.53095 1.58788 8.96795 1.58788C11.405 1.58788 11.655 1.58788 12.622 1.64288C13.193 1.64988 13.757 1.75488 14.292 1.95388C15.078 2.25688 15.699 2.87888 16.004 3.66588C16.2 4.19988 16.306 4.76488 16.315 5.33488C16.358 6.28588 16.369 6.55288 16.369 8.98988C16.369 11.4259 16.369 11.6879 16.326 12.6439H16.315V12.6429Z" fill="#2E2E2E" />
+                    </svg>
+                  </a><a class="blog-container__ico" href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.001 0.00195312C4.47895 0.00195312 0.00195312 4.47895 0.00195312 10.001C0.00195312 14.991 3.65795 19.127 8.43895 19.88V12.892H5.89895V10.001H8.43895V7.79795C8.43895 5.28995 9.93195 3.90695 12.215 3.90695C13.309 3.90695 14.455 4.10195 14.455 4.10195V6.56095H13.191C11.951 6.56095 11.563 7.33295 11.563 8.12395V9.99895H14.334L13.891 12.89H11.563V19.878C16.344 19.129 20 14.992 20 10.001C20 4.47895 15.523 0.00195312 10.001 0.00195312Z" fill="#2E2E2E" />
+                    </svg>
+                  </a><a class="blog-container__ico" href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.2825 7.35588H8.95548V10.8069H13.7475C13.3015 12.9999 11.4345 14.2599 8.95548 14.2599C6.03248 14.2599 3.67648 11.9039 3.67648 8.97987C3.67648 6.05687 6.03248 3.70088 8.95548 3.70088C10.2145 3.70088 11.3525 4.14788 12.2455 4.87888L14.8455 2.27988C13.2615 0.898875 11.2305 0.046875 8.95548 0.046875C4.00148 0.046875 0.0214844 4.02588 0.0214844 8.98088C0.0214844 13.9359 4.00048 17.9149 8.95548 17.9149C13.4225 17.9149 17.4845 14.6659 17.4845 8.98088C17.4845 8.45288 17.4035 7.88387 17.2825 7.35588Z" fill="#2E2E2E" />
+                    </svg>
+                  </a><a class="blog-container__ico" href="#"><svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21.4594 2.01238C20.6898 2.35373 19.8626 2.58442 18.9946 2.68815C19.8805 2.15701 20.5611 1.31598 20.8815 0.31378C20.0522 0.80564 19.1338 1.16278 18.1562 1.3552C17.3734 0.52112 16.2581 0 15.0237 0C12.6536 0 10.7319 1.92147 10.7319 4.29155C10.7319 4.6279 10.7699 4.95546 10.8431 5.2696C7.27633 5.0906 4.114 3.38203 1.99734 0.78551C1.6279 1.41935 1.41626 2.15656 1.41626 2.94309C1.41626 4.43204 2.17389 5.74563 3.32548 6.5153C2.62204 6.4929 1.96021 6.2999 1.38164 5.97846C1.38123 5.99639 1.38123 6.0143 1.38123 6.0324C1.38123 8.1118 2.86057 9.8463 4.82383 10.2406C4.46373 10.3387 4.08458 10.3912 3.69318 10.3912C3.41665 10.3912 3.1478 10.3642 2.88571 10.3142C3.43186 12.0191 5.01677 13.26 6.89478 13.2945C5.426 14.4457 3.57552 15.1318 1.56478 15.1318C1.21837 15.1318 0.876756 15.1114 0.541016 15.0717C2.44028 16.2894 4.69615 17 7.11974 17C15.0136 17 19.3304 10.4605 19.3304 4.78918C19.3304 4.60314 19.3262 4.41805 19.3179 4.23395C20.1565 3.62886 20.8841 2.87302 21.4594 2.01238Z" fill="#2E2E2E" />
+                    </svg>
+                  </a><a class="blog-container__ico" href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.67 12.001C8.22284 12.001 8.671 11.5528 8.671 11C8.671 10.4472 8.22284 9.999 7.67 9.999C7.11716 9.999 6.669 10.4472 6.669 11C6.669 11.5528 7.11716 12.001 7.67 12.001Z" fill="#2E2E2E" />
+                      <path d="M12.09 13.391C11.482 13.826 10.746 14.041 10 14C9.256 14.034 8.521 13.811 7.919 13.37C7.82 13.289 7.677 13.289 7.577 13.37C7.462 13.465 7.445 13.635 7.54 13.75C8.25 14.285 9.122 14.559 10.011 14.52C10.898 14.559 11.771 14.287 12.48 13.75V13.79C12.589 13.684 12.591 13.505 12.486 13.394C12.377 13.284 12.2 13.282 12.09 13.391ZM12.299 10.04C11.747 10.04 11.3 10.488 11.3 11.041C11.3 11.593 11.747 12.04 12.299 12.04L12.291 12.079C12.307 12.081 12.324 12.079 12.342 12.079C12.893 12.058 13.321 11.592 13.3 11.041C13.3 10.488 12.854 10.04 12.299 10.04Z" fill="#2E2E2E" />
+                      <path d="M10 0C4.479 0 0 4.477 0 10C0 15.521 4.479 20 10 20C15.521 20 20 15.521 20 10C20 4.477 15.521 0 10 0ZM15.859 11.33C15.871 11.476 15.871 11.623 15.859 11.769C15.859 14.009 13.25 15.831 10.029 15.831C6.808 15.831 4.199 14.011 4.199 11.769C4.187 11.623 4.187 11.476 4.199 11.33C4.054 11.264 3.924 11.175 3.807 11.066C3.22 10.513 3.193 9.588 3.744 9.003C4.296 8.415 5.221 8.387 5.807 8.94C6.959 8.159 8.316 7.731 9.706 7.71L10.449 4.24C10.449 4.24 10.449 4.238 10.449 4.236C10.487 4.069 10.652 3.964 10.82 4L13.269 4.49C13.429 4.215 13.709 4.032 14.027 3.998C14.577 3.939 15.068 4.336 15.129 4.886C15.188 5.435 14.791 5.928 14.24 5.987C13.691 6.046 13.199 5.649 13.138 5.1L11 4.65L10.351 7.77C11.726 7.799 13.062 8.227 14.201 9C14.46 8.752 14.8 8.607 15.158 8.594C15.965 8.565 16.64 9.194 16.67 10C16.68 10.563 16.363 11.08 15.859 11.33Z" fill="#2E2E2E" />
+                    </svg>
+                  </a></div>
+              </div>
+              <div class="blog-container__title-txt border__top" data-aos="fade-right">Politics cannot but respond to the senile creak of Amsterdam</div>
+              <div class="blog-container__txt" data-aos="fade-left">It should be noted that the modern development methodology predetermines a high demand for internal reserves and resources allocation. It is difficult to say why elements of the political process, which represent a vivid example of the continental European type of political culture, will be equally provided for themselves. Modern technologies have reached such a level that the boundary of personnel training creates the need to include a number of extraordinary measures in the production plan, taking into account a set of standard approaches. Strengthening and developing the internal structure requires an analysis of the development model. Only seeking to displace traditional production, nanotechnology represents nothing more than the quintessence of the victory of marketing over reason and must be called to account.</div>
+              <div class="blog-container__txt" data-aos="fade-left">On the other hand, the basic vector of development ensures the relevance of the directions of progressive development. Actively developing countries of the third world are functionally divided into independent elements.</div>
+              <div class="blog-container__title-txt" data-aos="fade-right">Noble aspirations will not save: the prototype is not a panacea</div>
+              <div class="blog-container__txt" data-aos="fade-left">Modern technologies have reached such a level that consultation with a wide asset ensures the relevance of the directions of progressive development. Varied and rich experience tells us that semantic analysis of external reactions is an interesting experiment to check the timely completion of a super task. We have to proceed from the fact that the existing structure of the organization speaks about the possibilities of internal reserves and resources distribution! It is pleasant, citizens, to observe how representatives of modern social reserves are only a method of political participation and are blocked within their own rational limits.</div>
+              <div class="blog-container__txt" data-aos="fade-left">Only replicated from foreign sources, modern research represents nothing but the quintessence of the victory of marketing over reason and should be described in as much detail as possible. It is a pleasure, citizens, to observe how the thorough research of competitors is presented in an extremely positive light. The deep level of immersion unambiguously defines each participant as capable of making their own decisions regarding the system of mass participation. The clarity of our position is obvious: constant advocacy of our activities reveals the urgent need for favorable prospects. In their desire to improve the quality of life, they forget that the constant quantitative growth and scope of our activity predetermines a high demand for favorable prospects. Modern technologies have reached such a level that synthetic testing does not leave a chance for new proposals.</div>
+              <div class="blog-container__title-txt" data-aos="fade-right">Only the frequency of search queries was erroneous</div>
+              <div class="blog-container__txt" data-aos="fade-left">But the strengthening and development of internal structure gives us no choice but to define the clustering of efforts. And there is no doubt that nanotechnologies, seeking to displace traditional production, call us to new achievements, which, in turn, must be devoted to social and democratic anathema. As part of the specification of modern standards, clear signs of the victory of institutionalization will be verified in time. It is hard to say why the supporters of totalitarianism in science only add factional differences and are united into whole clusters of their own kind. It should be noted that high quality of position research is a qualitatively new stage of further development. On the other hand, further development of various forms of activity requires analysis of appropriate conditions of activation.</div>
+              <div class="blog-container__title-txt" data-aos="fade-right">In any case, the integrity of the state media has done its job</div>
+              <div class="blog-container__txt" data-aos="fade-left">We have to proceed from the fact that constant quantitative growth and the sphere of our activity predetermine a high demand for the economic expediency of decisions made. Being only a part of the overall picture, communication diagrams are gaining popularity among certain segments of the population and, therefore, should be objectively considered by relevant authorities. But representatives of modern social reserves only add fractional differences and are timely verified. We have to proceed from the fact that the introduction of modern methods ensures the relevance of the personnel training system, which corresponds to the urgent needs.</div>
+              <div class="blog-container__btn-sub-container"><a class="blog-container__btn-i sub-container" href="./blog.html">return</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="subscribe" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+          <div class="subscribe__inner page-container">
+            <div class="subscribe__left">
+              <div class="subscribe__title">SUBSCRIBE TO OUR BLOG</div>
+              <div class="subscribe__txt">Best practices for customer engagement strategies</div>
+              <form>
+                <div class="subscribe-form__txt">email adress</div>
+                <div class="subscribe-form__txt mobile">Your email</div>
+                <div class="subscribe-form__row">
+                  <input class="subscribe-form__input required" type="email" placeholder="Email adress">
+                  <button class="subscribe-form__button" type="submit"></button><a class="subscribe-form__i" href="#">subscribe</a>
+                </div>
+              </form>
+              <div class="subscribe__subtxt">Be the first to get updates, tips, and tricks to transform your customer engagement! Check the boxes which best suit your interests and we’ll be in touch.</div>
+            </div>
+            <div class="subscribe__right">
+              <picture>
+                <source srcset="./img/images/illustration-blog.webp" type="image/webp"><img src="./img/images/illustration-blog.png" alt="img">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner page-container">
+        <div class="footer__column">
+          <div class="footer-logo"><a href="./">
+              <picture>
+                <source srcset="./img/images/hicell-logo2.webp" type="image/webp"><img class="d-footer-logo" src="./img/images/hicell-logo2.png" alt="img">
+              </picture>
+              <!--img(src="./img/images/hicell-logo2.png")-->
+            </a></div>
+        </div>
+        <div class="footer__column">
+          <div class="footer-col-title">Products</div>
+          <div class="footer-col-list">
+            <div class="footer-col-item"><a href="#">SMS</a></div>
+            <div class="footer-col-item"><a href="#">A2P Messaging</a></div>
+            <div class="footer-col-item"><a href="#">Verified SMS</a></div>
+            <div class="footer-col-item"><a href="#">Short Codes</a></div>
+            <div class="footer-col-item"><a href="#">Long Numbers</a></div>
+            <div class="footer-col-item"><a href="#">RCS</a></div>
+            <div class="footer-col-item"><a href="#">HLR</a></div>
+            <div class="footer-col-item"><a href="#">Viber</a></div>
+            <div class="footer-col-item"><a href="#">Transactions</a></div>
+            <div class="footer-col-item"><a href="#">Advertising SMS</a></div>
+            <div class="footer-col-item"><a href="#">IP Verification</a></div>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer-col-title">Solutions</div>
+          <div class="footer-col-list">
+            <div class="footer-col-item"><a href="#">Big data</a></div>
+            <div class="footer-col-item"><a href="#">Viber + SMS</a></div>
+            <div class="footer-col-item"><a href="#">Short Code</a></div>
+            <div class="footer-col-item"><a href="#">Long Number</a></div>
+            <div class="footer-col-item"><a href="#">2Way Numbers</a></div>
+            <div class="footer-col-item"><a href="#">Bulk SMS</a></div>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer-col-title">Prices</div>
+        </div>
+        <div class="footer__column">
+          <div class="footer-col-title">About us</div>
+          <div class="footer-col-list">
+            <div class="footer-col-item"><a href="#">About Us</a></div>
+            <div class="footer-col-item"><a href="#">Why us</a></div>
+            <div class="footer-col-item"><a href="#">Our History</a></div>
+            <div class="footer-col-item"><a href="#">Our office</a></div>
+            <div class="footer-col-item"><a href="#">Our employees</a></div>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer-col-title">FAQ</div>
+          <div class="footer-col-list">
+            <div class="footer-col-item"><a href="#">Video lessons</a></div>
+          </div>
+        </div>
+        <div class="footer__column">
+          <div class="footer-col-title">Contacts</div>
+          <div class="footer-col-list">
+            <div class="footer-col-item contact"><a href="mailto:sales@hicell.net">sales@hicell.net</a><a href="tel:+447506865214">+447506865214</a></div>
+            <div class="footer-col-item adress">100 New Bond Street, First Floor, London, United Kingdom, W1S 1SP · Company No. 11435117 · VAT 307344618</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom__txt">© Hicell, 2020. All rights reserved</div>
+      </div>
+    </footer><a class="fixed-info-btn"><svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d)">
+          <circle cx="40" cy="40" r="30" fill="#FFA400" />
+        </g>
+        <path d="M51.4764 36.578H37.5311C37.2884 36.578 37.0916 36.7748 37.0916 37.0175C37.0916 37.2602 37.2884 37.4569 37.5311 37.4569H51.4764C51.7191 37.4569 51.9158 37.2602 51.9158 37.0175C51.9158 36.7748 51.7191 36.578 51.4764 36.578Z" fill="#111111" />
+        <path d="M51.4764 39.9373H37.5311C37.2884 39.9373 37.0916 40.1341 37.0916 40.3768C37.0916 40.6195 37.2884 40.8162 37.5311 40.8162H51.4764C51.7191 40.8162 51.9158 40.6195 51.9158 40.3768C51.9158 40.1341 51.7191 39.9373 51.4764 39.9373Z" fill="#111111" />
+        <path d="M51.4764 43.2967H37.5311C37.2884 43.2967 37.0916 43.4935 37.0916 43.7362C37.0916 43.9789 37.2884 44.1756 37.5311 44.1756H51.4764C51.7191 44.1756 51.9158 43.9789 51.9158 43.7362C51.9158 43.4935 51.7191 43.2967 51.4764 43.2967Z" fill="#111111" />
+        <path d="M52.8722 32.7347H36.1352C34.7258 32.7347 33.5792 33.8813 33.5792 35.2907V45.8151C33.5792 47.2245 34.7258 48.3711 36.1352 48.3711H47.8663C47.9917 48.3711 48.1083 48.4275 48.1861 48.526L51.9745 53.3221C52.1238 53.5111 52.3416 53.6141 52.5697 53.6141C52.6545 53.6141 52.7408 53.5999 52.8254 53.5705C53.1375 53.4621 53.3392 53.1785 53.3392 52.8481V48.3274C54.5242 48.1061 55.4282 47.0583 55.4282 45.8151V35.2906C55.4282 33.8813 54.2817 32.7347 52.8722 32.7347ZM54.5493 45.8151C54.5493 46.7278 53.8068 47.4799 52.894 47.4915C52.6536 47.4946 52.4602 47.6904 52.4602 47.9309V52.5191L48.8758 47.9812C48.6304 47.6704 48.2624 47.4921 47.8663 47.4921H36.1352C35.2104 47.4921 34.4581 46.7398 34.4581 45.815V35.2906C34.4581 34.3659 35.2104 33.6135 36.1352 33.6135H52.8722C53.797 33.6135 54.5493 34.3659 54.5493 35.2906V45.8151Z" fill="#111111" />
+        <path d="M31.9025 40.001C31.6019 40.0437 31.3327 40.1985 31.1445 40.4367L28.1257 44.2585V40.4282C28.1257 40.1877 27.9323 39.9918 27.6919 39.9887C26.9283 39.979 26.3071 39.3499 26.3071 38.5863V29.4245C26.3071 28.6509 26.9365 28.0215 27.7102 28.0215H42.2803C43.0539 28.0215 43.6833 28.6509 43.6833 29.4245V31.1198C43.6833 31.3624 43.88 31.5592 44.1227 31.5592C44.3654 31.5592 44.5622 31.3624 44.5622 31.1198V29.4245C44.5622 28.1663 43.5385 27.1426 42.2803 27.1426H27.7102C26.4519 27.1426 25.4282 28.1663 25.4282 29.4245V38.5863C25.4282 39.6801 26.2117 40.6042 27.2469 40.8201V44.7088C27.2469 45.021 27.4374 45.2889 27.7324 45.3913C27.8123 45.4191 27.8938 45.4326 27.9739 45.4326C28.1894 45.4326 28.3954 45.3352 28.5364 45.1567L31.8343 40.9815C31.8819 40.9212 31.95 40.8821 32.0261 40.8712C32.2663 40.8371 32.4335 40.6146 32.3994 40.3743C32.3653 40.1341 32.1431 39.9668 31.9025 40.001Z" fill="#111111" />
+        <defs>
+          <filter id="filter0_d" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="5" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.643137 0 0 0 0 0 0 0 0 0.5 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+          </filter>
+        </defs>
+      </svg>
+    </a>
+    <div class="popup order-detail">
+      <div class="popup__body">
+        <div class="popup__inner">
+          <div class="popup__close">
+            <div class="popup__close-ico"></div>
+          </div>
+          <div class="popup__content order-detail__content"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
